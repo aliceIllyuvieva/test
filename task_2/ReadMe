@@ -1,0 +1,9 @@
+1. после скачивания папки task_2 нужно внутри нее создать директорию .docker
+2. туда переместить файл setup.sql
+3. docker-compose up -d
+4. python3 __init__.py
+5. на локалхосте по 5000 порту развернуто апи
+6. запросы:
+localhost:5000/get_all_pairs
+localhost:5000/get_categories_by_products
+localhost:5000/get_products_by_categories
